@@ -19,7 +19,7 @@ return distanceFromHqInBlocks(location)*264
 function distanceTravelledInFeet(beg,dest){
   if (beg > dest){
     return (beg - dest) * 264
-  }else if(dest > big){
+  }else if(dest > beg){
     return(dest -beg) *264
   } else {
     264
