@@ -28,7 +28,11 @@ function distanceTravelledInFeet(beg,dest){
 
 function calculatesFarePrice(start, destination){
   
+  let distance = distanceTravelledInFeet(start,destination)
   
+  switch(distance){
+    case 
+  }
   
   
 }
