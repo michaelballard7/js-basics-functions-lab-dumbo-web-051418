@@ -29,4 +29,6 @@ function distanceTravelledInFeet(beg,dest){
 function calculatesFarePrice(start, destination){
   
   
+  
+  
 }
