@@ -3,7 +3,7 @@
 function distanceFromHqInBlocks(location){
   hqLocation = 42 
   
-  if (lcoation > 42){
+  if (location > 42){
     return location - 42
   }else{
     return hqLocation - location
