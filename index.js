@@ -33,8 +33,9 @@ function calculatesFarePrice(start, destination){
   switch(distance){
     case distance < 400 :
       return "This one is on me"
-    case distance > 400 && distance <2000
-    rerurn 
+    case distance > 400 && distance < 2000:
+      return .02 * distance
+    
   }
   
   
