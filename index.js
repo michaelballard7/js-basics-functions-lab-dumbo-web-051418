@@ -35,6 +35,10 @@ function calculatesFarePrice(start, destination){
       return "This one is on me"
     case distance > 400 && distance < 2000:
       return .02 * distance
+    case distance > 2000 && distance < 2500:
+      return 25
+    default:
+      
     
   }
   
