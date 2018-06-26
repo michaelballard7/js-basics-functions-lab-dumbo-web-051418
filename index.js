@@ -20,7 +20,7 @@ function distanceTravelledInFeet(beg,dest){
   if (beg > dest){
     return (beg - dest) * 264
   }else if(dest > big){
-    return(dest -big) *264
+    return(dest -beg) *264
   } else {
     264
   }
